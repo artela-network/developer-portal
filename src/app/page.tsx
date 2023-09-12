@@ -17,13 +17,13 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            By{' '}
+            {/* By{' '} */}
             <Image
               src="/logo-artela.png"
               alt="Artela Logo"
               className="dark:invert"
-              width={100}
-              height={24}
+              width={200}
+              height={48}
               priority
             />
           </a>
@@ -32,39 +32,16 @@ export default function Home() {
 
       {/* <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]"> */}
       <div className="relative flex py-8 place-items-center before:absolute before:h-[300px] before:w-[480px]">
-        {/* <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        /> */}
         {/* <h1 className={`mb-3 text-2xl font-semibold`}>Artela Dev Net</h1> */}
         <code className="font-mono font-bold text-5xl text-white">Artela Devnet</code>
       </div>
-      <div className="relative flex py-1 place-items-center before:absolute before:h-[300px] before:w-[480px]">
-        {/* <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        /> */}
-        <code className="font-mono text-1xl text-white">Welcome to Artela devnet playground!! Unlock the full potential of Web3 innovations!!</code>
-      </div>
+      {/* <div className="relative flex py-1 place-items-center before:absolute before:h-[300px] before:w-[480px]">
+        <code className="font-mono text-1xl text-white">Artela Developer Portal</code>
+      </div> */}
 
       <div className="relative flex py-1 place-items-center before:absolute before:h-[300px] before:w-[480px]">
-        {/* <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        /> */}
-        <code className="font-mono text-1xl text-white">Artela is an extensible blockchain network enabling developers to build feature-rich dApps.</code>
+        <code className="font-mono text-1xl text-white">Curated Developer Resources to <span style={{ color: '#0082ff' }}>#BuildOnArtela</span></code>
+        {/* <code className="text-blue"></code> */}
       </div>
 
       <div className="mb-32 grid gap-5 items-stretch text-center py-20 lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-3 lg:text-left">
@@ -75,86 +52,18 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            Lear Artela{' '}
+            Intro to Artela{' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
+            Artela is an extensible blockchain network enabling developers to build feature-rich dApps.
           </p>
         </a>
 
         <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Explore Devnet{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn Aspect{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore the Next.js 13 playground.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Quick Start{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Aspect-tools{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="http://docs.artela.network/develop"
           className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target="_blank"
           rel="noopener noreferrer"
@@ -166,12 +75,80 @@ export default function Home() {
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
+            All-in-One Artela Developer Portal.
           </p>
         </a>
 
         <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="http://docs.artela.network/develop/quick-start"
+          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2 className={`mb-3 text-2xl font-semibold`}>
+            Quick Start{' '}
+            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+              -&gt;
+            </span>
+          </h2>
+          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+            Start with building your first Aspect on Artela.
+          </p>
+        </a>
+
+        <a
+          href="http://docs.artela.network/develop/"
+          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2 className={`mb-3 text-2xl font-semibold`}>
+            Testnet Overview{' '}
+            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+              -&gt;
+            </span>
+          </h2>
+          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+            Overview of Artela Alpha Testnet.
+          </p>
+        </a>
+
+        <a
+          href="http://docs.artela.network/develop/aspect-tools"
+          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2 className={`mb-3 text-2xl font-semibold`}>
+            Aspect-tools{' '}
+            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+              -&gt;
+            </span>
+          </h2>
+          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+            Aspect tools for boosting the development of Aspect and smart contract. 
+          </p>
+        </a>
+
+        <a
+          href="http://docs.artela.network/develop/start-a-locol-node"
+          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2 className={`mb-3 text-2xl font-semibold`}>
+            Run a node{' '}
+            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+              -&gt;
+            </span>
+          </h2>
+          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+            Learn how to spin up a node on Artela blockchain.
+          </p>
+        </a>
+
+        <a
+          href="http://docs.artela.network/develop/aspect-examples"
           className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target="_blank"
           rel="noopener noreferrer"
@@ -183,12 +160,12 @@ export default function Home() {
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
+            Step-by-step examples of building Aspects.
           </p>
         </a>
 
         <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="https://file.notion.so/f/s/f61f7e7b-c401-4168-ad6d-e35db0537363/Preview_-_Aspect_Programming_Whitepaper.pdf?id=6010f2ef-5967-4b8e-b500-52482a0e2d16&table=block&spaceId=45baf4ea-5aba-4e9d-b5e7-ca59d97ab79a&expirationTimestamp=1694131200000&signature=OXwSB9iIp-wplzI4zyRrZU1GFBRhyeQlP5j5N7SIAm8&downloadName=Preview+-+Aspect+Programming+Whitepaper.pdf"
           className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target="_blank"
           rel="noopener noreferrer"
@@ -200,29 +177,46 @@ export default function Home() {
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
+            Aspect Programming Whitepaper
           </p>
         </a>
 
         <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="http://docs.artela.network/develop/asolc-guide"
           className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target="_blank"
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            AI Copilot{' '}
+            ASOLC Guide{' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
+            An enhanced version of SOLC to compile smart contracts 
           </p>
         </a>
 
         <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="https://medium.com/@artela_network"
+          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2 className={`mb-3 text-2xl font-semibold`}>
+            Blog{' '}
+            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+              -&gt;
+            </span>
+          </h2>
+          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+            Stay updated with the latest research and news about Artela.
+          </p>
+        </a>
+
+        <a
+          href="https://t.me/artela_official"
           className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target="_blank"
           rel="noopener noreferrer"
@@ -234,12 +228,12 @@ export default function Home() {
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
+            Join the community of Artela builders.
           </p>
         </a>
 
         <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="http://docs.artela.network/develop/resources"
           className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target="_blank"
           rel="noopener noreferrer"
@@ -251,24 +245,7 @@ export default function Home() {
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Blogs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
+            Resources for building on Artela Devnet.
           </p>
         </a>
       </div>
@@ -280,7 +257,7 @@ export default function Home() {
       <div className="border-2 border-white	 w-3/5"></div>
       <div className="mb-32 grid gap-5 items-stretch text-center py-20 lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-3 lg:text-left">
         <a
-          href="http://docs.artela.network/main"
+          href="https://medium.com/@artela_network/eliminate-reentrancy-attacks-with-on-chain-runtime-protection-6fb1142945a7"
           className="group rounded-lg border border-transparent px-5 pt-8 pb-20 min-h-400 h-200 transition-colors  hover:border-gray-300 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target="_blank"
           rel="noopener noreferrer"
@@ -289,12 +266,12 @@ export default function Home() {
           Smart Contract Runtime Protection{' '}
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm text-white opacity-90`}>
-            Find in-depth information about Next.js features and API.
+            Eliminate reentrancy attacks with on-chain runtime protection
           </p>
         </a>
         
         <a
-          href="http://docs.artela.network/main"
+          href="https://www.youtube.com/watch?v=jkrELgwtykk&t=370s"
           className="group rounded-lg border border-transparent px-5 pt-8 pb-20 min-h-400 h-200 transition-colors  hover:border-gray-300 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target="_blank"
           rel="noopener noreferrer"
@@ -303,12 +280,12 @@ export default function Home() {
           Intent Solver On-Chain
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm text-white opacity-90`}>
-            Find in-depth information about Next.js features and API.
+            Empowering on-chain functionality for itent-enabled protocols
           </p>
         </a>
        
         <a
-          href="http://docs.artela.network/main"
+          // href="http://docs.artela.network/main"
           className="group rounded-lg border border-transparent px-5 pt-8 pb-20 min-h-400 h-200 transition-colors  hover:border-gray-300 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target="_blank"
           rel="noopener noreferrer"
@@ -317,12 +294,12 @@ export default function Home() {
           Just-in-time (JIT) Operation
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm text-white opacity-90`}>
-            Find in-depth information about Next.js features and API.
+            On-chain just-in-time operations such as JIT liquidation, JIT LP management, and MEV-capturing AMM.
           </p>
         </a>
         
         <a
-          href="http://docs.artela.network/main"
+          // href="http://docs.artela.network/main"
           className="group rounded-lg border border-transparent px-5 pt-8 pb-20 min-h-400 h-200 transition-colors  hover:border-gray-300 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target="_blank"
           rel="noopener noreferrer"
@@ -331,12 +308,12 @@ export default function Home() {
           Native Event-Driven Action
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm text-white opacity-90`}>
-            Find in-depth information about Next.js features and API.
+           Subscribe to real-time specific on-chain events to trigger atomic tasks.
           </p>
         </a>
        
         <a
-          href="http://docs.artela.network/main"
+          // href="http://docs.artela.network/main"
           className="group rounded-lg border border-transparent px-5 pt-8 pb-20 min-h-400 h-200 transition-colors  hover:border-gray-300 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target="_blank"
           rel="noopener noreferrer"
@@ -345,12 +322,12 @@ export default function Home() {
           Fully OnChain Game
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm text-white opacity-90`}>
-            Find in-depth information about Next.js features and API.
+           Upgrade game equipment with enhanced programmability
           </p>
         </a>
         
         <a
-          href="http://docs.artela.network/main"
+          // href="http://docs.artela.network/main"
           className="group rounded-lg border border-transparent px-5 pt-8 pb-20 min-h-400 h-200 transition-colors  hover:border-gray-300 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target="_blank"
           rel="noopener noreferrer"
@@ -359,29 +336,26 @@ export default function Home() {
           OnChain MicroService
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm text-white opacity-90`}>
-            Find in-depth information about Next.js features and API.
+            Public on-chain services with modular upgrades.
           </p>
         </a>
         
         <a
-          href="http://docs.artela.network/main"
+          href="https://t.me/artela_official"
           className="group col-span-3 rounded-lg border border-transparent px-5 pt-8 pb-20 min-h-400 h-200 transition-colors  hover:border-gray-300 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target="_blank"
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-white text-2xl font-semibold text-center `}>
-          Your Ideas!!
+          Your Use Case Here
           </h2>
           <p className={`text-sm text-white opacity-90 text-center `}>
-            Find in-depth information about Next.js features and API.
+            Contribute your research and ideas to the Artela Community. Let’s build the feature-rich dApps together!
           </p>
         </a>
-
-        
-       
       </div>
 
-      <div className="relative flex py-8 place-items-center before:absolute before:h-[300px] before:w-[480px]">
+      {/* <div className="relative flex py-8 place-items-center before:absolute before:h-[300px] before:w-[480px]">
         <code className="font-mono font-bold text-5xl text-white">Contribute to Artela</code>
       </div>
       
@@ -438,10 +412,7 @@ export default function Home() {
             Find in-depth information about Next.js features and API.
           </p>
         </a>
-
-        
-       
-      </div>
+      </div> */}
 
     </main>
   )
