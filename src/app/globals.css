@@ -37,3 +37,13 @@ body {
 }
 .indexMod .im-b3em {
   color: #0082ff; }
+
+.indexMod .ProductCard_button {
+  border: none;
+  /* background-color: #383637; */
+  /* background: url(../images/pc/b11-1.png) 0 0/100% 100% no-repeat; */
+  font-size: 16px;
+  color: #fff;
+  border-radius: 76px;
+  padding: 18px 38px;
+}

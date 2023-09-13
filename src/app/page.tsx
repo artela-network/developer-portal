@@ -131,7 +131,7 @@ export default function Home() {
         </a>
 
         <a
-          href="http://docs.artela.network/develop/start-a-locol-node"
+          href="https://docs.artela.network/develop/start-a-local-node"
           className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target="_blank"
           rel="noopener noreferrer"
@@ -165,7 +165,7 @@ export default function Home() {
         </a>
 
         <a
-          href="https://file.notion.so/f/s/f61f7e7b-c401-4168-ad6d-e35db0537363/Preview_-_Aspect_Programming_Whitepaper.pdf?id=6010f2ef-5967-4b8e-b500-52482a0e2d16&table=block&spaceId=45baf4ea-5aba-4e9d-b5e7-ca59d97ab79a&expirationTimestamp=1694131200000&signature=OXwSB9iIp-wplzI4zyRrZU1GFBRhyeQlP5j5N7SIAm8&downloadName=Preview+-+Aspect+Programming+Whitepaper.pdf"
+          href="https://github.com/artela-network/aspect-whitepaper/blob/main/latex/build/whitepaper.pdf"
           className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target="_blank"
           rel="noopener noreferrer"
@@ -264,6 +264,9 @@ export default function Home() {
         >
           <h2 className={`mb-3 text-white text-2xl font-semibold`}>
           Smart Contract Runtime Protection{' '}
+            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+              -&gt;
+            </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm text-white opacity-90`}>
             Eliminate reentrancy attacks with on-chain runtime protection
@@ -277,10 +280,13 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-white text-2xl font-semibold`}>
-          Intent Solver On-Chain
+          On-Chain Intent-Centric Protocols{' '}
+            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+              -&gt;
+            </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm text-white opacity-90`}>
-            Empowering on-chain functionality for itent-enabled protocols
+            Empowering on-chain functionality for intent-centric protocols
           </p>
         </a>
        
@@ -319,7 +325,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-white text-2xl font-semibold`}>
-          Fully OnChain Game
+          Fully On-Chain Game
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm text-white opacity-90`}>
            Upgrade game equipment with enhanced programmability
@@ -333,7 +339,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-white text-2xl font-semibold`}>
-          OnChain MicroService
+          On-Chain MicroService
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm text-white opacity-90`}>
             Public on-chain services with modular upgrades.
@@ -347,15 +353,18 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-white text-2xl font-semibold text-center `}>
-          Your Use Case Here
+          Your Use Case Here{' '}
+            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+              -&gt;
+            </span>
           </h2>
           <p className={`text-sm text-white opacity-90 text-center `}>
             Contribute your research and ideas to the Artela Community. Let’s build the feature-rich dApps together!
           </p>
         </a>
       </div>
-
-      {/* <div className="relative flex py-8 place-items-center before:absolute before:h-[300px] before:w-[480px]">
+{/* 
+      <div className="relative flex py-8 place-items-center before:absolute before:h-[300px] before:w-[480px]">
         <code className="font-mono font-bold text-5xl text-white">Contribute to Artela</code>
       </div>
       
