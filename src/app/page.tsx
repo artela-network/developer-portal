@@ -4,7 +4,7 @@ import Image from 'next/image'
 export default function Home() {
   return (
 
-    <main className="flex min-h-screen flex-col items-center justify-between p-3">
+    <main className="flex min-h-screen flex-col items-center justify-between p-30">
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
         {/* <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
           wellcome to &nbsp;
@@ -255,7 +255,7 @@ export default function Home() {
       </div>
       
       <div className="border-2 border-white	 w-3/5"></div>
-      <div className="mb-32 grid gap-5 items-stretch text-center py-20 lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-3 lg:text-center">
+      <div className="mb-32 grid gap-5 items-stretch text-center py-20 lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-3 lg:text-left">
         <a
           href="https://medium.com/@artela_network/eliminate-reentrancy-attacks-with-on-chain-runtime-protection-6fb1142945a7"
           className="group rounded-lg border border-transparent px-5 pt-8 pb-20 min-h-400 h-200 transition-colors  hover:border-gray-300 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
