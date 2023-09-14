@@ -233,7 +233,7 @@ export default function Home() {
         </a>
 
         <a
-          href="http://docs.artela.network/develop/resources"
+          href="https://docs.artela.network/develop/resources"
           className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target="_blank"
           rel="noopener noreferrer"
