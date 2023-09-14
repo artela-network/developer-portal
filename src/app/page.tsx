@@ -44,7 +44,7 @@ export default function Home() {
         {/* <code className="text-blue"></code> */}
       </div>
 
-      <div className="mb-32 grid gap-5 items-stretch text-center py-20 lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-3 lg:text-left">
+      <div className="mb-32 grid gap-5 items-stretch w-[90vw] max-w-screen-xl justify-center text-center py-20 lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-3 lg:text-left">
         <a
           href="https://docs.artela.network/main"
           className="group rounded-lg border border-transparent px-5 pt-8 pb-20 min-h-400 h-200 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
@@ -255,7 +255,7 @@ export default function Home() {
       </div>
 
       <div className="border-2 border-white	 w-3/5"></div>
-      <div className="mb-32 grid gap-5 items-stretch text-center py-20 grid-cols-1 lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-3 lg:text-left">
+      <div className="mb-32 grid gap-5 items-stretch text-center py-20 w-[90vw] max-w-screen-xl justify-center grid-cols-1 lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-3 lg:text-left">
         <a
           href="https://medium.com/@artela_network/eliminate-reentrancy-attacks-with-on-chain-runtime-protection-6fb1142945a7"
           className="group rounded-lg border border-transparent px-5 pt-8 pb-20 w-full h-auto min-h-0 lg:min-h-400 lg:h-200 transition-colors hover:border-gray-300 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
@@ -268,7 +268,7 @@ export default function Home() {
               -&gt;
             </span>
           </h2>
-          <p className={`m-0 max-w-[30ch] text-sm text-white opacity-90`}>
+          <p className={`m-0 text-sm text-white opacity-90`}>
             Eliminate reentrancy attacks with on-chain runtime protection
           </p>
         </a>
@@ -285,7 +285,7 @@ export default function Home() {
               -&gt;
             </span>
           </h2>
-          <p className={`m-0 max-w-[30ch] text-sm text-white opacity-90`}>
+          <p className={`m-0 text-sm text-white opacity-90`}>
             Empowering on-chain functionality for intent-centric protocols
           </p>
         </a>
@@ -299,7 +299,7 @@ export default function Home() {
           <h2 className={`mb-3 text-white text-2xl font-semibold`}>
           Just-in-time (JIT) Operation
           </h2>
-          <p className={`m-0 max-w-[30ch] text-sm text-white opacity-90`}>
+          <p className={`m-0 text-sm text-white opacity-90`}>
             On-chain just-in-time operations such as JIT liquidation, JIT LP management, and MEV-capturing AMM.
           </p>
         </a>
@@ -313,7 +313,7 @@ export default function Home() {
           <h2 className={`mb-3 text-white text-2xl font-semibold`}>
           Native Event-Driven Action
           </h2>
-          <p className={`m-0 max-w-[30ch] text-sm text-white opacity-90`}>
+          <p className={`m-0 text-sm text-white opacity-90`}>
            Subscribe to real-time specific on-chain events to trigger atomic tasks.
           </p>
         </a>
@@ -327,7 +327,7 @@ export default function Home() {
           <h2 className={`mb-3 text-white text-2xl font-semibold`}>
           Fully On-Chain Game
           </h2>
-          <p className={`m-0 max-w-[30ch] text-sm text-white opacity-90`}>
+          <p className={`m-0 text-sm text-white opacity-90`}>
            Upgrade game equipment with enhanced programmability
           </p>
         </a>
@@ -341,7 +341,7 @@ export default function Home() {
           <h2 className={`mb-3 text-white text-2xl font-semibold`}>
           On-Chain MicroService
           </h2>
-          <p className={`m-0 max-w-[30ch] text-sm text-white opacity-90`}>
+          <p className={`m-0 text-sm text-white opacity-90`}>
             Public on-chain services with modular upgrades.
           </p>
         </a>
