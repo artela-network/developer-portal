@@ -46,7 +46,7 @@ export default function Home() {
       <div className="mb-32 grid gap-5 items-stretch w-[90vw] max-w-screen-xl justify-center text-center py-20 lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-3 lg:text-left">
         <a
           href="https://docs.artela.network/main"
-          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 min-h-400 h-200 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-100"
+          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 min-h-400 h-200 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-400"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -63,7 +63,7 @@ export default function Home() {
 
         <a
           href="https://docs.artela.network/develop"
-          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-100"
+          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-400"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -80,7 +80,7 @@ export default function Home() {
 
         <a
           href="https://docs.artela.network/develop/quick-start"
-          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-100"
+          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-400"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -97,7 +97,7 @@ export default function Home() {
 
         <a
           href="https://docs.artela.network/develop/"
-          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-100"
+          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-400"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -114,7 +114,7 @@ export default function Home() {
 
         <a
           href="https://docs.artela.network/develop/aspect-tools"
-          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-100"
+          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-400"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -131,7 +131,7 @@ export default function Home() {
 
         <a
           href="https://docs.artela.network/develop/start-a-local-node"
-          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-100"
+          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-400"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -148,7 +148,7 @@ export default function Home() {
 
         <a
           href="https://docs.artela.network/develop/aspect-examples"
-          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-100"
+          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-400"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -165,7 +165,7 @@ export default function Home() {
 
         <a
           href="https://github.com/artela-network/aspect-whitepaper/blob/main/latex/build/whitepaper.pdf"
-          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-100"
+          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-400"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -182,7 +182,7 @@ export default function Home() {
 
         <a
           href="https://docs.artela.network/develop/asolc-guide"
-          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-100"
+          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-400"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -199,7 +199,7 @@ export default function Home() {
 
         <a
           href="https://medium.com/@artela_network"
-          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-100"
+          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-400"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -216,7 +216,7 @@ export default function Home() {
 
         <a
           href="https://t.me/artela_official"
-          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-100"
+          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-400"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -233,7 +233,7 @@ export default function Home() {
 
         <a
           href="https://docs.artela.network/develop/resources"
-          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-100"
+          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-400"
           target="_blank"
           rel="noopener noreferrer"
         >
