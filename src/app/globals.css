@@ -16,6 +16,16 @@
   }
 }
 
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+* {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -45,8 +55,5 @@ body {
   font-size: 16px;
   color: #fff;
   border-radius: 76px;
-  padding: 18px 38px;
-}
-.padding-left {
   padding: 18px 38px;
 }
