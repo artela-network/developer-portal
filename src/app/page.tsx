@@ -21,7 +21,6 @@ export default function Home() {
             <Image
               src="/logo-artela.png"
               alt="Artela Logo"
-              className="dark:invert"
               width={200}
               height={48}
               priority
@@ -47,7 +46,7 @@ export default function Home() {
       <div className="mb-32 grid gap-5 items-stretch w-[90vw] max-w-screen-xl justify-center text-center py-20 lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-3 lg:text-left">
         <a
           href="https://docs.artela.network/main"
-          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 min-h-400 h-200 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 min-h-400 h-200 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-100"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -64,7 +63,7 @@ export default function Home() {
 
         <a
           href="https://docs.artela.network/develop"
-          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-100"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -81,7 +80,7 @@ export default function Home() {
 
         <a
           href="https://docs.artela.network/develop/quick-start"
-          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-100"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -98,7 +97,7 @@ export default function Home() {
 
         <a
           href="https://docs.artela.network/develop/"
-          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-100"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -115,7 +114,7 @@ export default function Home() {
 
         <a
           href="https://docs.artela.network/develop/aspect-tools"
-          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-100"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -132,7 +131,7 @@ export default function Home() {
 
         <a
           href="https://docs.artela.network/develop/start-a-local-node"
-          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-100"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -149,7 +148,7 @@ export default function Home() {
 
         <a
           href="https://docs.artela.network/develop/aspect-examples"
-          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-100"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -166,7 +165,7 @@ export default function Home() {
 
         <a
           href="https://github.com/artela-network/aspect-whitepaper/blob/main/latex/build/whitepaper.pdf"
-          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-100"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -183,7 +182,7 @@ export default function Home() {
 
         <a
           href="https://docs.artela.network/develop/asolc-guide"
-          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-100"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -200,7 +199,7 @@ export default function Home() {
 
         <a
           href="https://medium.com/@artela_network"
-          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-100"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -217,7 +216,7 @@ export default function Home() {
 
         <a
           href="https://t.me/artela_official"
-          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-100"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -234,7 +233,7 @@ export default function Home() {
 
         <a
           href="https://docs.artela.network/develop/resources"
-          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-100"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -258,7 +257,7 @@ export default function Home() {
       <div className="mb-32 grid gap-5 items-stretch text-center py-20 w-[90vw] max-w-screen-xl justify-center grid-cols-1 lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-3 lg:text-left">
         <a
           href="https://medium.com/@artela_network/eliminate-reentrancy-attacks-with-on-chain-runtime-protection-6fb1142945a7"
-          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 w-full h-auto min-h-0 lg:min-h-400 lg:h-200 transition-colors hover:border-gray-300 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 w-full h-auto min-h-0 lg:min-h-400 lg:h-200 transition-colors hover:border-gray-300"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -275,7 +274,7 @@ export default function Home() {
 
         <a
           href="https://www.youtube.com/watch?v=jkrELgwtykk&t=370s"
-          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 w-full h-auto min-h-0 lg:min-h-400 lg:h-200 transition-colors hover:border-gray-300 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 w-full h-auto min-h-0 lg:min-h-400 lg:h-200 transition-colors hover:border-gray-300"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -292,7 +291,7 @@ export default function Home() {
 
         <a
           // href="http://docs.artela.network/main"
-          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 w-full h-auto min-h-0 lg:min-h-400 lg:h-200 transition-colors hover:border-gray-300 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 w-full h-auto min-h-0 lg:min-h-400 lg:h-200 transition-colors hover:border-gray-300"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -306,7 +305,7 @@ export default function Home() {
 
         <a
           // href="http://docs.artela.network/main"
-          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 w-full h-auto min-h-0 lg:min-h-400 lg:h-200 transition-colors hover:border-gray-300 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 w-full h-auto min-h-0 lg:min-h-400 lg:h-200 transition-colors hover:border-gray-300"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -320,7 +319,7 @@ export default function Home() {
 
         <a
           // href="http://docs.artela.network/main"
-          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 w-full h-auto min-h-0 lg:min-h-400 lg:h-200 transition-colors hover:border-gray-300 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 w-full h-auto min-h-0 lg:min-h-400 lg:h-200 transition-colors hover:border-gray-300"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -334,7 +333,7 @@ export default function Home() {
 
         <a
           // href="http://docs.artela.network/main"
-          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 w-full h-auto min-h-0 lg:min-h-400 lg:h-200 transition-colors hover:border-gray-300 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 w-full h-auto min-h-0 lg:min-h-400 lg:h-200 transition-colors hover:border-gray-300"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -348,7 +347,7 @@ export default function Home() {
 
         <a
           href="https://t.me/artela_official"
-          className="group rounded-lg border lg:col-span-3 border-transparent px-5 pt-8 pb-20 w-full h-auto min-h-0 lg:min-h-400 lg:h-200 transition-colors hover:border-gray-300 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          className="group rounded-lg border lg:col-span-3 border-transparent px-5 pt-8 pb-20 w-full h-auto min-h-0 lg:min-h-400 lg:h-200 transition-colors hover:border-gray-300"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -373,7 +372,7 @@ export default function Home() {
       <div className="mb-32 grid gap-5 items-stretch text-center py-20 lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-2 lg:text-left">
         <a
           href="http://docs.artela.network/main"
-          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 min-h-400 h-200 transition-colors  hover:border-gray-300 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 min-h-400 h-200 transition-colors  hover:border-gray-300"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -390,7 +389,7 @@ export default function Home() {
 
         <a
           href="http://docs.artela.network/main"
-          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 min-h-400 h-200 transition-colors  hover:border-gray-300 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 min-h-400 h-200 transition-colors  hover:border-gray-300"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -407,7 +406,7 @@ export default function Home() {
 
         <a
           href="http://docs.artela.network/main"
-          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 min-h-400 h-200 transition-colors  hover:border-gray-300 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 min-h-400 h-200 transition-colors  hover:border-gray-300"
           target="_blank"
           rel="noopener noreferrer"
         >
