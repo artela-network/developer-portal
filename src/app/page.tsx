@@ -79,93 +79,8 @@ export default function Home() {
         </a>
 
         <a
-          href="https://docs.artela.network/develop/quick-start"
-          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-400"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Quick Start{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Start with building your first Aspect on Artela.
-          </p>
-        </a>
-
-        <a
-          href="https://docs.artela.network/develop/"
-          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-400"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Testnet Overview{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Overview of Artela Alpha Testnet.
-          </p>
-        </a>
-
-        <a
-          href="https://docs.artela.network/develop/aspect-tools"
-          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-400"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Aspect-tools{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Aspect tools for boosting the development of Aspect and smart contract.
-          </p>
-        </a>
-
-        <a
-          href="https://docs.artela.network/develop/start-a-local-node"
-          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-400"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Run a node{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn how to spin up a node on Artela blockchain.
-          </p>
-        </a>
-
-        <a
-          href="https://docs.artela.network/develop/aspect-examples"
-          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-400"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Examples{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Step-by-step examples of building Aspects.
-          </p>
-        </a>
-
-        <a
           href="https://github.com/artela-network/aspect-whitepaper/blob/main/latex/build/whitepaper.pdf"
-          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-400"
+          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -180,22 +95,113 @@ export default function Home() {
           </p>
         </a>
 
+
         <a
-          href="https://docs.artela.network/develop/asolc-guide"
-          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-400"
+          href="https://docs.artela.network/develop/get-strarted/art-dev-intro"
+          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target="_blank"
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            ASOLC Guide{' '}
+            Quick Start{' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            An enhanced version of SOLC to compile smart contracts
+            Start with building your first dApp on Artela.
           </p>
         </a>
+
+        <a
+          href="https://docs.artela.network/develop/node/access-testnet"
+          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2 className={`mb-3 text-2xl font-semibold`}>
+            Join Our Devnet{' '}
+            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+              -&gt;
+            </span>
+          </h2>
+          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+            Spin up your own node and join our devnet!
+          </p>
+        </a>
+
+
+
+        <a
+          href="https://docs.artela.network/develop/client/evm-compatible-apis"
+          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2 className={`mb-3 text-2xl font-semibold`}>
+            Clients APIs{' '}
+            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+              -&gt;
+            </span>
+          </h2>
+          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+            Clients and APIs supported on Artela. 
+          </p>
+        </a>
+
+        
+        <a
+          href="https://docs.artela.network/develop/node/full-node-setup"
+          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2 className={`mb-3 text-2xl font-semibold`}>
+            Setup Your Own Nodes{' '}
+            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+              -&gt;
+            </span>
+          </h2>
+          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+          Setup your own node for a local development env!
+          </p>
+        </a>
+
+        <a
+          href="https://docs.artela.network/develop/core-concepts/foundational"
+          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2 className={`mb-3 text-2xl font-semibold`}>
+            Core Concepts{' '}
+            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+              -&gt;
+            </span>
+          </h2>
+          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+            Basic knowledge for building on Artela.
+          </p>
+        </a>
+        
+        <a
+          href="https://docs.artela.network/develop/guides/reentrancy-guard"
+          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2 className={`mb-3 text-2xl font-semibold`}>
+            Examples{' '}
+            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+              -&gt;
+            </span>
+          </h2>
+          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+            Step-by-step guide of building Aspects examples.
+          </p>
+        </a>
+
+        
 
         <a
           href="https://medium.com/@artela_network"
@@ -215,8 +221,8 @@ export default function Home() {
         </a>
 
         <a
-          href="https://t.me/artela_official"
-          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-400"
+          href="https://discord.com/invite/artela"
+          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -232,8 +238,8 @@ export default function Home() {
         </a>
 
         <a
-          href="https://docs.artela.network/develop/resources"
-          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-400"
+          href="https://docs.artela.network/develop/resources/faucet"
+          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 transition-colors bg-gray-100 hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -244,7 +250,7 @@ export default function Home() {
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Resources for building on Artela Devnet.
+            Resources for building on Artela Testnet.
           </p>
         </a>
       </div>
@@ -345,7 +351,8 @@ export default function Home() {
           </p>
         </a>
 
-        <a
+        {/* <a
+
           href="https://t.me/artela_official"
           className="group rounded-lg border lg:col-span-3 border-transparent px-5 pt-8 pb-20 w-full h-auto min-h-0 lg:min-h-400 lg:h-200 transition-colors hover:border-gray-300"
           target="_blank"
@@ -360,9 +367,115 @@ export default function Home() {
           <p className={`text-sm text-white opacity-90 text-center`}>
             Contribute your research and ideas to the Artela Community. Let’s build the feature-rich dApps together!
           </p>
+        </a> */}
+      </div>
+
+      <div className="relative flex py-8 place-items-center before:absolute before:h-[300px] before:w-[480px]">
+        <code className="font-mono font-bold text-5xl text-white">Contribute to Artela</code>
+      </div>
+      
+      <div className="border-2 border-white	 w-3/5"></div>
+      <div className="mb-32 grid gap-5 items-stretch text-center py-20 lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-3 lg:text-left">
+        <a
+          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 min-h-400 h-200 transition-colors  hover:border-gray-300 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2 className={`mb-3 text-white text-2xl font-semibold`}>
+          Work on an open issue{' '}
+          </h2>
+          <p className={`m-0 max-w-[30ch] text-sm text-white opacity-90`}>
+            Work we've identified that needs doing
+          </p>
+        </a>
+
+        <a
+          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 min-h-400 h-200 transition-colors  hover:border-gray-300 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2 className={`mb-3 text-white text-2xl font-semibold`}>
+         Contribute an idea{' '}
+          </h2>
+          <p className={`m-0 max-w-[30ch] text-sm text-white opacity-90`}>
+            Help us continue to improve Artela
+          </p>
+        </a>
+        
+        <a
+          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 min-h-400 h-200 transition-colors  hover:border-gray-300 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2 className={`mb-3 text-white text-2xl font-semibold`}>
+          Fix a bug{' '}
+          </h2>
+          <p className={`m-0 max-w-[30ch] text-sm text-white opacity-90`}>
+            Let us know the bug and get ready for bounty!
+          </p>
+        </a>
+       
+        <a
+          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 min-h-400 h-200 transition-colors  hover:border-gray-300 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2 className={`mb-3 text-white text-2xl font-semibold`}>
+            Improve documentation
+          </h2>
+          <p className={`m-0 max-w-[30ch] text-sm text-white opacity-90`}>
+            Create a PR if you see a mistake or find room for improvement
+          </p>
+        </a>
+        
+        <a
+          // href="http://docs.artela.network/main"
+          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 min-h-400 h-200 transition-colors  hover:border-gray-300 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2 className={`mb-3 text-white text-2xl font-semibold`}>
+          Co-research
+          </h2>
+          <p className={`m-0 max-w-[30ch] text-sm text-white opacity-90`}>
+           Contribute a blog or show your proposal for co-research
+          </p>
+        </a>
+       
+        <a
+          // href="http://docs.artela.network/main"
+          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 min-h-400 h-200 transition-colors  hover:border-gray-300 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2 className={`mb-3 text-white text-2xl font-semibold`}>
+          Contribute an Aspect usecase
+          </h2>
+          <p className={`m-0 max-w-[30ch] text-sm text-white opacity-90`}>
+           Contribute an Aspect usecase to example repo.
+          </p>
+        </a>
+
+        <a
+          href="https://github.com/artela-network/contribute-to-artela"
+          className="group col-span-3 rounded-lg border border-transparent px-5 pt-8 pb-20 min-h-400 h-200 transition-colors  hover:border-gray-300 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2 className={`mb-3 text-white text-2xl font-semibold text-center `}>
+          Kickstart Contributions{' '}
+            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+              -&gt;
+            </span>
+          </h2>
+          <p className={`text-sm text-white opacity-90 text-center `}>
+          Contributions of any kind are welcome!
+          Let’s build the feature-rich dApps together!
+          </p>
         </a>
       </div>
-{/*
+      
+{/* 
       <div className="relative flex py-8 place-items-center before:absolute before:h-[300px] before:w-[480px]">
         <code className="font-mono font-bold text-5xl text-white">Contribute to Artela</code>
       </div>
