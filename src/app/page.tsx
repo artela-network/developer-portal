@@ -371,109 +371,132 @@ export default function Home() {
       </div>
 
       <div className="relative flex py-8 place-items-center before:absolute before:h-[300px] before:w-[480px]">
-        <code className="font-mono font-bold text-5xl text-white">Contribute to Artela</code>
+        <code className="font-mono font-bold text-5xl text-white text-center">Contrib to Artela</code>
       </div>
-      
+
       <div className="border-2 border-white	 w-3/5"></div>
-      <div className="mb-32 grid gap-5 items-stretch text-center py-20 lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-3 lg:text-left">
+      <div className="mb-32 grid gap-5 items-stretch text-center py-20 w-[90vw] max-w-screen-xl justify-center grid-cols-1 lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-3 lg:text-left">
         <a
-          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 min-h-400 h-200 transition-colors  hover:border-gray-300 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
+            href="https://medium.com/@artela_network/eliminate-reentrancy-attacks-with-on-chain-runtime-protection-6fb1142945a7"
+            className="group rounded-lg border border-transparent px-5 pt-8 pb-20 w-full h-auto min-h-0 lg:min-h-400 lg:h-200 transition-colors hover:border-gray-300"
+            target="_blank"
+            rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-white text-2xl font-semibold`}>
-          Work on an open issue{' '}
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm text-white opacity-90`}>
-            Work we've identified that needs doing
-          </p>
-        </a>
-
-        <a
-          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 min-h-400 h-200 transition-colors  hover:border-gray-300 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-white text-2xl font-semibold`}>
-         Contribute an idea{' '}
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm text-white opacity-90`}>
-            Help us continue to improve Artela
-          </p>
-        </a>
-        
-        <a
-          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 min-h-400 h-200 transition-colors  hover:border-gray-300 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-white text-2xl font-semibold`}>
-          Fix a bug{' '}
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm text-white opacity-90`}>
-            Let us know the bug and get ready for bounty!
-          </p>
-        </a>
-       
-        <a
-          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 min-h-400 h-200 transition-colors  hover:border-gray-300 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-white text-2xl font-semibold`}>
-            Improve documentation
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm text-white opacity-90`}>
-            Create a PR if you see a mistake or find room for improvement
-          </p>
-        </a>
-        
-        <a
-          // href="http://docs.artela.network/main"
-          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 min-h-400 h-200 transition-colors  hover:border-gray-300 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-white text-2xl font-semibold`}>
-          Co-research
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm text-white opacity-90`}>
-           Contribute a blog or show your proposal for co-research
-          </p>
-        </a>
-       
-        <a
-          // href="http://docs.artela.network/main"
-          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 min-h-400 h-200 transition-colors  hover:border-gray-300 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-white text-2xl font-semibold`}>
-          Contribute an Aspect usecase
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm text-white opacity-90`}>
-           Contribute an Aspect usecase to example repo.
-          </p>
-        </a>
-
-        <a
-          href="https://github.com/artela-network/contribute-to-artela"
-          className="group col-span-3 rounded-lg border border-transparent px-5 pt-8 pb-20 min-h-400 h-200 transition-colors  hover:border-gray-300 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-white text-2xl font-semibold text-center `}>
-          Kickstart Contributions{' '}
+            Work on an open issue{' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
-          <p className={`text-sm text-white opacity-90 text-center `}>
-          Contributions of any kind are welcome!
-          Let’s build the feature-rich dApps together!
+          <p className={`m-0 text-sm text-white opacity-90`}>
+            Work we've identified that needs doing.
           </p>
         </a>
+
+        <a
+            className="group rounded-lg border border-transparent px-5 pt-8 pb-20 w-full h-auto min-h-0 lg:min-h-400 lg:h-200 transition-colors hover:border-gray-300"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+          <h2 className={`mb-3 text-white text-2xl font-semibold`}>
+            Contribute an idea{' '}
+            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+              -&gt;
+            </span>
+          </h2>
+          <p className={`m-0 text-sm text-white opacity-90`}>
+            Help us continue to improve Artela.
+          </p>
+        </a>
+
+        <a
+            className="group rounded-lg border border-transparent px-5 pt-8 pb-20 w-full h-auto min-h-0 lg:min-h-400 lg:h-200 transition-colors hover:border-gray-300"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+          <h2 className={`mb-3 text-white text-2xl font-semibold`}>
+            Fix a bug{' '}
+          </h2>
+          <p className={`m-0 text-sm text-white opacity-90`}>
+            Let us know the bug and get ready for bounty!
+          </p>
+        </a>
+
+        <a
+            className="group rounded-lg border border-transparent px-5 pt-8 pb-20 w-full h-auto min-h-0 lg:min-h-400 lg:h-200 transition-colors hover:border-gray-300"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+          <h2 className={`mb-3 text-white text-2xl font-semibold`}>
+            Improve documentation
+          </h2>
+          <p className={`m-0 text-sm text-white opacity-90`}>
+            Create a PR if you see a mistake or find room for improvement.
+          </p>
+        </a>
+
+        <a
+            // href="http://docs.artela.network/main"
+            className="group rounded-lg border border-transparent px-5 pt-8 pb-20 w-full h-auto min-h-0 lg:min-h-400 lg:h-200 transition-colors hover:border-gray-300"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+          <h2 className={`mb-3 text-white text-2xl font-semibold`}>
+            Co-research
+          </h2>
+          <p className={`m-0 text-sm text-white opacity-90`}>
+            Contribute a blog or show your proposal for co-research.
+          </p>
+        </a>
+
+        <a
+            // href="http://docs.artela.network/main"
+            className="group rounded-lg border border-transparent px-5 pt-8 pb-20 w-full h-auto min-h-0 lg:min-h-400 lg:h-200 transition-colors hover:border-gray-300"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+          <h2 className={`mb-3 text-white text-2xl font-semibold`}>
+            Contribute an Aspect UseCase
+          </h2>
+          <p className={`m-0 text-sm text-white opacity-90`}>
+            Contribute an Aspect usecase to example repo.
+          </p>
+        </a>
+
+        <a
+            href="https://github.com/artela-network/contribute-to-artela"
+            className="group rounded-lg border border-transparent px-5 pt-8 pb-20 w-full h-auto min-h-0 lg:min-h-400 lg:h-200 transition-colors hover:border-gray-300"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+          <h2 className={`mb-3 text-white text-2xl font-semibold`}>
+            Kickstart Contributions{' '}
+          </h2>
+          <p className={`m-0 text-sm text-white opacity-90`}>
+            Let’s build the feature-rich dApps together!
+          </p>
+        </a>
+
+        {/* <a
+
+          href="https://t.me/artela_official"
+          className="group rounded-lg border lg:col-span-3 border-transparent px-5 pt-8 pb-20 w-full h-auto min-h-0 lg:min-h-400 lg:h-200 transition-colors hover:border-gray-300"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2 className={`mb-3 text-white text-2xl font-semibold text-center `}>
+          Your Use Case Here{' '}
+            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+              -&gt;
+            </span>
+          </h2>
+          <p className={`text-sm text-white opacity-90 text-center`}>
+            Contribute your research and ideas to the Artela Community. Let’s build the feature-rich dApps together!
+          </p>
+        </a> */}
       </div>
+
+
       
 {/* 
       <div className="relative flex py-8 place-items-center before:absolute before:h-[300px] before:w-[480px]">
@@ -490,13 +513,29 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-white text-2xl font-semibold`}>
-            Improve Documents{' '}
+            Work on an open issue{' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm text-white opacity-90`}>
-            Find in-depth information about Next.js features and API.
+            Work we've identified that needs doing.
+          </p>
+        </a>
+
+        <a
+          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 min-h-400 h-200 transition-colors  hover:border-gray-300"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2 className={`mb-3 text-white text-2xl font-semibold`}>
+          Contribute an idea{' '}
+            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+              -&gt;
+            </span>
+          </h2>
+          <p className={`m-0 max-w-[30ch] text-sm text-white opacity-90`}>
+            Help us continue to improve Artela.
           </p>
         </a>
 
@@ -507,30 +546,13 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-white text-2xl font-semibold`}>
-          Build Aspect{' '}
+          Fix a bug{' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm text-white opacity-90`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="http://docs.artela.network/main"
-          className="group rounded-lg border border-transparent px-5 pt-8 pb-20 min-h-400 h-200 transition-colors  hover:border-gray-300"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-white text-2xl font-semibold`}>
-          Tech Share{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm text-white opacity-90`}>
-            Find in-depth information about Next.js features and API.
+            Let us know the bug and get ready for bounty!
           </p>
         </a>
       </div> */}
