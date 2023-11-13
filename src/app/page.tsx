@@ -377,7 +377,6 @@ export default function Home() {
       <div className="border-2 border-white	 w-3/5"></div>
       <div className="mb-32 grid gap-5 items-stretch text-center py-20 w-[90vw] max-w-screen-xl justify-center grid-cols-1 lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-3 lg:text-left">
         <a
-            href="https://medium.com/@artela_network/eliminate-reentrancy-attacks-with-on-chain-runtime-protection-6fb1142945a7"
             className="group rounded-lg border border-transparent px-5 pt-8 pb-20 w-full h-auto min-h-0 lg:min-h-400 lg:h-200 transition-colors hover:border-gray-300"
             target="_blank"
             rel="noopener noreferrer"
@@ -385,7 +384,6 @@ export default function Home() {
           <h2 className={`mb-3 text-white text-2xl font-semibold`}>
             Work on an open issue{' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
             </span>
           </h2>
           <p className={`m-0 text-sm text-white opacity-90`}>
@@ -401,7 +399,6 @@ export default function Home() {
           <h2 className={`mb-3 text-white text-2xl font-semibold`}>
             Contribute an idea{' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
             </span>
           </h2>
           <p className={`m-0 text-sm text-white opacity-90`}>
@@ -471,6 +468,9 @@ export default function Home() {
         >
           <h2 className={`mb-3 text-white text-2xl font-semibold`}>
             Kickstart Contributions{' '}
+            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+              -&gt;
+            </span>
           </h2>
           <p className={`m-0 text-sm text-white opacity-90`}>
             Let’s build the feature-rich dApps together!
